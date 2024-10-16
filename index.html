@@ -10,22 +10,30 @@
     <div class="container">
       <header>
         <h1>Vegetarian Recipe Generator</h1>
+        <h2>Get inspired to make your next vegetarian meal 🥕</h2>
+        
+        <p class="description">
+            <hr class="hr-header" />
+          Just decide on one vegetarian ingredient (i.e. no meat or seafood) you would like to include
+         and type it below 👇
+        </p>
       </header>
 
-      <form action="">
+      <form class="vegetarian-recipe-generator">
         <input
           type="text"
-          placeholder="Type a vegetrian ingredient you want to cook with..."
+          placeholder="Which vegetarian ingredient do you want to cook with?"
           autofocus
           required
+          class="ingredient-input"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
 
-      <div class="generated-recipe">Example recipe here...</div>
+      <div class="generated-recipe-box">Example recipe here...</div>
     </div>
     <footer>
-      This AI project was coded by Julie M. Jeffries. It is
+      This AI project was coded by <a href="https://github.com/juliemeta">Julie M. Jeffries</a>. <br> It is
       <a
         href="https://github.com/juliemeta/vegetarian-recipe-generator"
         target="_blank"
