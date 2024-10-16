@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Vegetarian Recipe Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,12 +15,12 @@
         
         <p class="description">
             <hr class="hr-header" />
-          Just decide on one vegetarian ingredient (i.e. no meat or seafood) you would like to include
-         and type it below 👇
+          Just decide on a vegetarian ingredient you would like to include
+         and type it below.
         </p>
       </header>
 
-      <form class="vegetarian-recipe-generator">
+      <form class="vegetarian-recipe-generator" id="vegetarian-recipe-generator-form">
         <input
           type="text"
           placeholder="Which vegetarian ingredient do you want to cook with?"
@@ -30,7 +31,7 @@
         <input type="submit" class="submit-button" />
       </form>
 
-      <div class="generated-recipe-box">Example recipe here...</div>
+      <div class="generated-recipe-box" id="generated-recipe"></div>
     </div>
     <footer>
       This AI project was coded by <a href="https://github.com/juliemeta">Julie M. Jeffries</a>. <br> It is
